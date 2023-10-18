@@ -1,0 +1,42 @@
+## Modelo de Caja
+
+Interactive editor 
+```html
+p, 
+ul {
+  border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+  border: 2px solid blue;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+} 
+
+.inline {
+  display: inline;
+}
+```
+
+```html
+<p>
+    I am a paragraph. Some of the
+    <span>words</span> have been wrapped in a
+    <span>span element</span>.
+</p>     
+<ul>
+  <li>Item One</li>
+  <li>Item Two</li>
+  <li>Item Three</li>
+</ul>
+<p class="inline">I am a paragraph. A short one.</p>
+<p class="inline">I am another paragraph. Also a short one.</p>
+
+```   
+
+![Ejemplo de caja.png](./Ejemplodecaja.png)

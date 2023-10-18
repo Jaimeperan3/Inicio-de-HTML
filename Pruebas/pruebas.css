@@ -1,0 +1,17 @@
+montblanc.jpg {
+    float: left;
+  }
+  
+  descarga.png {
+    float: right;
+  }
+
+  .contenedor {
+    width: 250px;
+    margin-left: 350px;
+  }
+
+.Lorem {
+  width: 250px;
+  margin-left: 350px;
+}

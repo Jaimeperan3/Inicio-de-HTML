@@ -1,0 +1,49 @@
+/* MIS PREFERENCIAS*/
+a {text-decoration: none;}
+
+/* ESTILOS DE TEXTOS */
+.txt10{font-size: 10px;}
+.txt20{font-size: 20px;}
+.txt30{font-size: 30px;}
+.txt40{font-size: 40px;}
+.txt50{font-size: 50px;}
+
+ /* COLORES DE TEXTOS */
+.txtred{color: red;}
+.txtblue{color: blue;}
+.txtgreen{color: green;}
+.txtyellow{color: yellow;}
+.txtorange{color: orange;}
+.txtwhite{color: white;}
+
+/*COLORES DE FONDOS*/
+.bgred{background-color: red;}
+.bgblue{background-color: blue;}
+.bggreen{background-color: green;}
+.bgyellow{background-color: yellow;}
+.bgorange{background-color: orange;}
+.bggrey{background-color: grey;}
+
+/*PADINGS*/
+.p5{padding: 5px;}
+.p10{padding: 10px;}
+.p15{padding: 15px;}
+.p20{padding: 20px;}
+.p25{padding: 25px;}
+
+
+/*MARGINS*/
+.m5 {margin: 5px;}
+.m10{margin: 10px;}
+.m15{margin: 15px;}
+.m20{margin: 20px;}
+.m25{margin: 25px;}
+
+
+/*Altura*/
+.alt50 {height: 50px;}  
+.alt100 {height: 100px;}
+.alt150 {height: 150px;}
+.alt200 {height: 200px;}
+.alt250 {height: 250px;}
+.alt300 {height: 300px;}

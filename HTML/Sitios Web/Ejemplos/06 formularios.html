@@ -1,0 +1,86 @@
+><!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplos de formularios</title>
+    </head>
+
+    <body>
+
+    <h1>Formulario de Ejemmplo</h1>
+
+    <form action="">
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Jaime"><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Perán Alcantarilla"><br>
+
+        <label for="lname">Correo:</label><br>
+
+        <input type="text" name="texto" placeholder="ejemplocorreo@gmail.com"></p>
+
+        <p><label for="">Contraseña</label></p>
+        <input type="password" placeholder="password">
+
+        <p>Sexo</p>
+        <input type="radio" name="hmo" value="H"> Hombre
+        <input type="radio" name="hmo" value="M"> Mujer
+        <input type="radio" name="hmo" value="O"> Otro
+
+        <p>Aficiones</p>
+        <p><input type="checkbox" name="Casilla">Estudiar redes</p>
+        <p><input type="checkbox" name="Casilla">Estudiar Html</p>
+        <p><input type="checkbox" name="Casilla">Las dos</p>
+
+        <p>Fecha</p> 
+        <p><input type="date" name="fecha"></p>
+
+        <p>Ciudad</p>
+        <select name="menu">
+      <option value="0">...</option>
+      <option value="1">Madrid</option>
+      <option value="2">Toledo</option>
+      <option value="3">Avila</option>
+      <option value="3">Segovia</option>
+      <option value="3">Guadalajara</option>
+      </select>
+
+        <p>Hora</p>
+        <p><input type="time" name="hora"></p>
+    
+
+       <p>Indique su nivel (Malo, Regular, Bueno):</p> 
+        <input type="range" name="rango"
+        min="1" max="3" list="lista-rango">
+        <datalist id="lista-rango">
+        <option value="1" label="Malo">
+        <option value="2" label="Regular">
+        <option value="3" label="Bueno">
+        </datalist>
+
+
+        <p>Menu de opciones</p>
+        <select name="menu">
+            <h2>Elige una opción</h2>
+            <option>...</option>
+            <option>Html</option>
+            <option>Java</option>
+            <option>Css</option>
+          </select>        
+        
+        
+
+        <p>Cuadro de texto</p>
+        <textarea name="texto" rows="4" cols="40" placeholder="Escriba aqui su comentario"></textarea>
+
+        <p>Boton de enviar y Borrar</p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        
+    </form>
+
+    </body>
+</html>
