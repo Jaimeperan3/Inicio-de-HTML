@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+
+    <script src="./js/Halloween.js"></script>
+
+    <link rel="shortcut icon" href="./img/pumpkin.png" type="image/x-icon">
+    
+    <title>Halloween 2023 </title>
+    <link rel="stylesheet" href="style/estilo.css">
+</head>
+<body> 
+   
+    <div class="container">
+
+        <p id="p1">Halloween </p>
+        <p id="p2">Halloween 2023</p>
+    
+        <div id="cartahalloween">
+            <h1 id="p1h" >🎃 Halloween 🎃</h1>
+            <div class="pch">
+                <p>Dsifruta de la celebracion de Halloween</p>
+                <p>Disfruta con tus amigos
+                </p>
+                <p>Trae el mejor disfraz</p>
+            </div>
+            <img id="img1" src="./img/dancing-squeleton.gif">
+            <img id="img2" src="./img/casa-encantada.jpg">
+            <div id="boton" onclick="show ('confeti')"><p>Jaime Peran</p></div>
+        </div>
+
+        <div id="esqueleto" onclick="mostrar('scream'); sonar('grito')">
+        
+        </div>
+
+        <img id="bat" src="img/murcielago.gif">
+        <img id="exorcista" src="./img/excorsista.gif">
+        <img id="confeti" src="./img/confeti.gif">
+        <img id="invitation" src="/img/My Invitation.png">
+
+
+        <audio id="grito" src="./sounds/grito.wav"></audio>
+        
+        <div id="music-squeleton">
+
+            <img id="esqueletotaza" src="./img/esqueleto-taza.gif" onclick="musicon('bgsound')" ondblclick="musicoff('bgsound')">
+            <img id="flecha" src="./img/flecha.png">
+            <p id="p3">Haz clic en el esqueleto para activar la musica<br> Da doble click para desactivarlo </p>
+            
+            <audio id="bgsound" src="./sounds/lullaby.mp3" ></audio>
+        
+        </div> 
+
+    </div>
+</body>
+</html>
